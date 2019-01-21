@@ -1,12 +1,9 @@
 package shape.org.triangle;
 
 import shape.org.AbstractShape;
-import shape.org.Logger;
 
-private static Logger Logger = Logger.getLogger(Triangle.class.getName());
 
 public class Triangle extends AbstractShape {
-	
 	
 	
 	private int base;
@@ -15,7 +12,7 @@ public class Triangle extends AbstractShape {
 	
 	public int getArea() {
 		
-		int area = height * height/2;
+		int area = base/2 * height;
 		
 		return area;
 	}
@@ -38,7 +35,6 @@ public class Triangle extends AbstractShape {
 	}
 	
  
-	logger.info(String.valueOf(triangle.getArea()));
 	
 
 }
