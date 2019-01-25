@@ -1,4 +1,4 @@
-package square.org;
+package shape.org.square;
 
 import static org.junit.jupiter.api.Assertions.*;
 

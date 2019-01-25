@@ -1,4 +1,4 @@
-package triangle.org;
+package shape.org.triangle;
 
 import static org.junit.jupiter.api.Assertions.*;
 
