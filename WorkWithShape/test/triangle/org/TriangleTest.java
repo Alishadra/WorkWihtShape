@@ -1,4 +1,4 @@
-package triangle;
+package triangle.org;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -11,12 +11,12 @@ class TriangleTest {
 	@Test
 	void testGetArea() {
 
-	Triangle triangle = new Triangle();
-	
-	triangle.base = 25;
-	triangle.height = 47;
-	
-	assertEquals((25*47/2), triangle.getArea());
+		Triangle triangle = new Triangle();
+		
+		triangle.base = 24;
+		triangle.height = 36;
+		
+		assertEquals((24*36/2), triangle.getArea());
 	
 	}
 

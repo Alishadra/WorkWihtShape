@@ -1,23 +1,22 @@
-package square;
+package circlr.org;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
 import shape.org.circle.Circle;
-import shape.org.square.Square;
 
-class SquareTest {
+
+class CircleTest {
 
 	@Test
 	public void testGetArea() {
 
-
-		Square square = new Square();
-		
-		square.side = 10;
-		
-		assertEquals((10 *10), square.getArea());
+	Circle circle = new Circle();
+	
+	circle.radius = 15;
+	
+	assertEquals((int)(3.14 * 15 *15), circle.getArea());
 	
 	}
 
