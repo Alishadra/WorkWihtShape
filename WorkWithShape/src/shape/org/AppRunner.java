@@ -27,6 +27,7 @@ public class AppRunner {
 		circle.setRadius(18);
 		
 		logger.info(String.valueOf(circle.getArea()));
+		
 
 		
 	}

@@ -6,9 +6,9 @@ import shape.org.AbstractShape;
 public class Triangle extends AbstractShape {
 	
 	
-	private int base;
+	public int base;
 	
-	private int height;
+	public int height;
 	
 	public int getArea() {
 		

@@ -4,7 +4,7 @@ import shape.org.AbstractShape;
 
 public class Square extends AbstractShape {
 	
-	private int side;
+	public int side;
 	
 	public int getArea() {
 		
